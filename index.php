@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <?
+  ?>
 <div class="tabs">
   <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
   <label for="tab-btn-1">Импорт статей</label>
@@ -19,11 +21,16 @@
   <div id="content-1">
     <input type="text" placeholder = "Ключевое слово " id = "search" name = "name">
     <input type="submit" value="Скопировать" id = "copy" name = "sub">
+    <div class="content-text" id = "content-text"></div>
+    <div class="content-table" id = "content-table">
+
+    </div>
   </div>
   <div id="content-2">
   <div id="content-1">
     <input type="text" placeholder = "Ключевое слово " id = "search" name = "name">
     <input type="submit" value="Поиск">
+
   </div>
   </div>
 </div>

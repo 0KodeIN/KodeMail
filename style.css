@@ -72,3 +72,11 @@
   .submit-spinner_hide {
     display: none;
   }
+  .content-table{
+    margin-top: 5vw;
+    display: flex;
+    width: 26vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
